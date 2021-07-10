@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="fixed-action-btn">
+        <a class="btn-floating red btn-large" href="https://www.youtube.com/">
+            <i class="material-icons">
+                add
+            </i>
+        </a>
+        <ul>
+            <li>
+                <a href="" class="btn-floating">
+                    <i class="material-icons">
+                        logout
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="btn-floating">
+                    <i class="material-icons">
+                        description
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="btn-floating">
+                    <i class="material-icons">
+                        login
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a href="" class="btn-floating">
+                    <i class="material-icons">
+                        visibility_off
+                    </i>
+                </a>
+            </li>
+            
+            
+        </ul>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        var options={};
+         document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, options);
+        });
+    </script>
+</body>
+</html>
